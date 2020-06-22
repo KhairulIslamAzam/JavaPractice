@@ -1,0 +1,6 @@
+Student Name: Rarim Course Info: {Chemistry=55.0, ICT=80.0, Math=70.0, Physics=50.0, Bangla=70.0}
+Total grade: 3.0
+Student Name: Karim Course Info: {Chemistry=73.5, ICT=80.0, Math=70.0, Physics=80.0, Bangla=80.0}
+Total grade: 3.8
+Student Name: Rasel Course Info: {Chemistry=55.0, ICT=80.0, Math=70.0, Physics=30.0, Bangla=70.0}
+Total grade: 1.9 Fail due to requir one or many subject grade below the  pass
