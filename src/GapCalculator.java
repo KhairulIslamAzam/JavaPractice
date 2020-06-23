@@ -16,16 +16,16 @@ public class GapCalculator {
             ck = getGrade(subjectNumber.getValue());
             if(ck == 0f){
                 count = 1;
-                break;
             }
             result = result + ck;
             //ck = failCk(subjectNumber.getValue());
         }
         result =  result / size;
-        if(count == 0){
-            return "Total grade: "+result;
+        if(count == 1){
+            return  "Total grade: "+result+" Fail due to requir one or many subject grade below the  pass";
         }
-        return  "Total grade: "+result+" Fail due to requir one or many subject grade below the  pass";
+        return "Total grade: "+result;
+
     }
 
     public float getGrade(double number) {
@@ -74,11 +74,11 @@ public class GapCalculator {
         studentList.add(Rarim);
 
         number = new HashMap<>();
-        number.put("Physics",30.0);
+        number.put("Physics",50.0);
         number.put("Math",70.0);
-        number.put("Chemistry",55.0);
+        number.put("Chemistry",30.0);
         number.put("ICT",80.0);
-        number.put("Bangla",70.0);
+        number.put("Bangla",50.5);
         Student Rasel = new Student("Rasel","C12345","abc@gmail.com",
                 new CourseWithNumber(number));
         studentList.add(Rasel);
