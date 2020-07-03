@@ -1,0 +1,6 @@
+ID,Name,Bangla,English,Math,Religion
+01,asif,82,67,98,89
+02,abir,72,87,89,45
+03,zahir,30,60,76,40
+04,kalim,80,90,70,65
+05,rahim,35,50,15,50
